@@ -1,0 +1,41 @@
+* {
+  background-color:rgb(46, 46, 46);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+}
+
+h1 {
+  font-size: 5rem;
+  color: white;
+}
+
+h2 {
+  margin-top: 50px;
+  font-size: 2rem;
+  color: white;
+}
+
+p {
+  margin-top: 20px;
+  color: white;
+}
+
+#playButton {
+  margin-top: 20px;
+  padding: 5px 40px;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  border: none;
+}
+
