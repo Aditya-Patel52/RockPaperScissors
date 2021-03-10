@@ -30,6 +30,8 @@ function enemyMove() {
       document.getElementById("gameStatus").innerHTML = "Win!";
       document.getElementById("gameStatus").style.color = "green";
     }
+  } else {
+    document.getElementById("gameStatus").innerHTML = "Invalid Input!";
   }
   if(move == "Paper" || move == "paper") {
     if(moveSet[randomNumber] == "Rock") {
@@ -47,6 +49,8 @@ function enemyMove() {
       document.getElementById("gameStatus").innerHTML = "Lost!";
       document.getElementById("gameStatus").style.color = "red";
     }
+  } else {
+    document.getElementById("gameStatus").innerHTML = "Invalid Input!";
   }
   if(move == "Scissors" || move == "scissors") {
     if(moveSet[randomNumber] == "Rock") {
@@ -63,7 +67,9 @@ function enemyMove() {
       document.getElementById("enemyMove").innerHTML = "Scissors!";
       document.getElementById("gameStatus").innerHTML = "Tie!";
       document.getElementById("gameStatus").style.color = "white";
-    }
+    } else {
+    document.getElementById("gameStatus").innerHTML = "Invalid Input!";
+  }
   }
 }
 
